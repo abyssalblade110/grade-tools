@@ -1,128 +1,73 @@
-# 🎓 School Grade Tools
-
-![Python Version](https://img.shields.io/badge/python-3.6+-blue.svg)
-![License](https://img.shields.io/badge/license-GPL--3.0-green.svg)
-![Status](https://img.shields.io/badge/status-active-success.svg)
-
 <div align="center">
 
-```ascii
-╔══════════════════════════════════════════╗
-║        Python School Utilities           ║
-║     Grade Tools & Number Analysis        ║
-╚══════════════════════════════════════════╝
-```
+# 🎓 School Grade Tools
 
-🚀 A collection of terminal-based educational tools with colorful interfaces and smooth animations!
+[![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/license-GPL--3.0-green.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/abyssalblade110/grade-tools)
 
-[Features](#features) • [Installation](#installation) • [Usage](#usage) • [Screenshots](#screenshots)
+<img src="https://raw.githubusercontent.com/abyssalblade110/grade-tools/main/assets/demo.gif" alt="Demo" width="600">
+
+Terminal-based educational tools with smooth animations
+
+[Features](#features) • [Install](#installation) • [Usage](#usage) • [Demo](#screenshots)
 
 </div>
 
 ---
 
-## ✨ Features
+## ⚡ Features
 
-### 1. 📊 Grade Converter
-- Convert numerical grades (0-100) to letter grades
-- Beautiful color-coded output
-- Smooth animation effects
-- Detailed grade descriptions
-- Visual grade scale display
+#### Grade Converter
+- Numerical (0-100) to letter grade conversion
+- Grade scale visualization
+- Performance insights
 
-### 2. 🔢 Highest Number Finder
-- Compare three numbers instantly
-- Visual bar graph representation
-- Color-coded results
-- Animated output display
-- User-friendly interface
+#### Number Analysis
+- Three-number comparison
+- Real-time visualization
+- Bar graph representation
 
-## 🛠 Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/abyssalblade110/grade-tools.git
-cd grade-tools
-```
-
-2. Make sure you have Python 3.6 or higher installed:
-```bash
-python --version
-```
-
-## 🚀 Usage
-
-### Grade Converter
+## 🔧 Setup
 
 ```bash
-python grade_converter.py
+git clone https://github.com/abyssalblade110/grade-tools.git && cd grade-tools
+python --version  # Requires Python 3.6+
 ```
 
-You'll see a beautiful interface where you can:
-- Enter grades between 0 and 100
-- Get instant color-coded results
-- View detailed grade assessments
-
-### Highest Number Finder
+## 📘 Usage
 
 ```bash
-python highest_number.py
+python grade_converter.py    # Grade conversion
+python highest_number.py     # Number analysis
 ```
 
-Features include:
-- Easy number input interface
-- Visual comparison bars
-- Animated results display
+## 🎨 Design
 
-## 📸 Screenshots
-
-<details>
-<summary>Click to view screenshots!</summary>
-
-```ascii
-╔═══════════════════════════════════════╗
-║       GRADE CONVERSION SYSTEM         ║
-╚═══════════════════════════════════════╝
-
-Grade Scale:
-  A: 90-100 - Excellent
-  B: 80-89  - Good
-  C: 70-79  - Satisfactory
-  D: 60-69  - Needs Improvement
-  F: 0-59   - Failing
+```
+A (90-100) ████████████ Excellence
+B (80-89)  ████████     Good
+C (70-79)  ██████       Satisfactory
+D (60-69)  ████         Needs Work
+F (0-59)   ██           Critical
 ```
 
-</details>
-
-## 🎨 Color Scheme
-
-The applications use a carefully selected color palette:
-- 🟢 Green: Excellence and success
-- 🔵 Blue: Good performance
-- 🟡 Yellow: Satisfactory results
-- 🟣 Magenta: Areas for improvement
-- 🔴 Red: Critical attention needed
-
-## 🛡️ Technical Details
-
-- **Language**: Python 3.6+
-- **Dependencies**: None (uses built-in libraries)
-- **Platform**: Cross-platform (Windows, macOS, Linux)
-- **Terminal**: Supports ANSI color codes
-
-## 👤 Author
-
-**Abyssalblade110**
-- 🌐 GitHub: [@abyssalblade110](https://github.com/abyssalblade110)
+## 🛠 Tech Stack
+- Python 3.6+
+- Zero external dependencies
+- Cross-platform support
+- ANSI terminal support
 
 ## 📄 License
-
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
-
----
+[GNU GPL v3.0](LICENSE)
 
 <div align="center">
 
-Made with ❤️ by [Abyssalblade110](https://pawndelta.netlify.app)
+---
+<sub>
+  <a href="https://pawndelta.netlify.app">
+    <img src="https://img.shields.io/badge/crafted_by-abyssalblade110-blue.svg?style=flat-square" alt="Crafted by Abyssalblade110">
+  </a>
+</sub>
 
 </div>
