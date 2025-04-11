@@ -13,7 +13,7 @@
 ╚══════════════════════════════════════════╝
 ```
 
-🚀 A collection of beautiful terminal-based educational tools with colorful interfaces and smooth animations!
+🚀 A collection of terminal-based educational tools with colorful interfaces and smooth animations!
 
 [Features](#features) • [Installation](#installation) • [Usage](#usage) • [Screenshots](#screenshots)
 
@@ -123,6 +123,6 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 <div align="center">
 
-Made with ❤️ by Abyssalblade110
+Made with ❤️ by [Abyssalblade110](https://pawndelta.netlify.app)
 
 </div>
